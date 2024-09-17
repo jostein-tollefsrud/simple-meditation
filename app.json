@@ -1,33 +1,35 @@
 {
   "expo": {
-    "name": "meditation",
+    "name": "Meditation",
     "slug": "meditation",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/images/icon.png",
-    "scheme": "myapp",
-    "userInterfaceStyle": "automatic",
+    "icon": "./assets/simpleMeditationLogo.png",
+    "scheme": "meditation",
+    "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/images/splash.png",
+      "image": "./assets/simpleMeditationLogo.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
+	"assetBundlePatterns": ["**/*"],
     "ios": {
       "supportsTablet": true
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/images/adaptive-icon.png",
+        "foregroundImage": "./assets/simpleMeditationLogo.png",
         "backgroundColor": "#ffffff"
       }
     },
     "web": {
       "bundler": "metro",
       "output": "static",
-      "favicon": "./assets/images/favicon.png"
+      "favicon": "./assets/simpleMeditationLogo.png"
     },
     "plugins": [
-      "expo-router"
+      "expo-router",
+	  "expo-font",
     ],
     "experiments": {
       "typedRoutes": true
